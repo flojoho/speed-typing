@@ -26,6 +26,8 @@ body {
 .typingSpan {
   font-size: 2rem;
   white-space: nowrap;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .timerSpan {
@@ -39,8 +41,6 @@ body {
 .gameDiv {
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   opacity: 1;
 
@@ -50,6 +50,8 @@ body {
 
 #gamesArea {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 
