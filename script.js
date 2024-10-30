@@ -1,5 +1,6 @@
 import Game from './Game.js';
 import words from './words.js';
+import './Modal.js';
 
 const gamesArea = document.getElementById('gamesArea');
 
