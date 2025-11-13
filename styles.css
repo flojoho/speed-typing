@@ -2,7 +2,7 @@
   --white: hsl(0, 0%, 100%);
   --light-gray: #DDDDDD;
   --gray: hsl(0, 0%, 40%);
-  --dark-gray: hsl(0, 0%, 15%);
+  --dark-gray: hsl(0, 0%, 12%);
 }
 
 * {
@@ -77,7 +77,8 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  border: 3px var(--gray) solid;
+  border: 2px var(--gray) solid;
+  font-size: 1.6rem;
   width: 2.8rem;
   height: 2.8rem;
   display: flex;
